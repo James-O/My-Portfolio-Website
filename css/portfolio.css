@@ -1,0 +1,157 @@
+body{
+	margin: 0px;
+}
+#navbar{
+	background-color: #8B0000;
+	height: 50px;
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+	text-align: right;
+}
+#navbar a{
+	text-decoration: none;
+	padding-right: 25px;
+	padding-top: -20px;
+	padding-left: 25px;
+	padding-bottom: -20px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+}
+#navbar a:hover{
+	background-color: #122d5d;
+	padding: 35px;
+}
+#welcome-section{
+	background-color: #000000;
+	text-align: center;
+	color: #ffffff;
+	height: 100vh;
+	font-weight: bold;
+	font-size: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#project-section{
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	color: #ffffff;
+	background: #122d5d; 
+}
+#project-section hr{
+	width: 600px;
+	text-align:center;
+}
+#project{
+	background-color: #122d5d;
+	padding-top: 20px;
+	display: flex;
+	padding-bottom: 10px;
+}
+.project-tile{
+	width: 90%;
+	padding: 5px;
+	margin-left: 25px;
+}
+.img-caption{
+	text-align: center;
+	background-color: #000000;
+	height: 40px;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -5px;
+}
+.img-caption code{
+	background-color: #122d5d;
+	padding: 5px; 
+}
+.img-caption code:hover{
+	background-color: #8B0000;
+	padding: 5px;
+}
+#show{
+	background-color: #122d5d;
+	height: 40px;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+#show a{
+	color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px;
+}
+#show :hover{
+	background-color: #8B0000;
+	padding: 10px;
+}
+#contact-us{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	height: 400px;
+	padding: 10px;
+}
+#social{
+	display: flex;
+	margin-top: 5%;
+}
+#social img{
+	width: 15%;
+}
+#contact-us h1, #contact-us h2{
+	margin-top: 13%;
+	font-weight: bold;
+	font-size: 30px;
+}
+#social a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 20px;
+}
+#footer{
+	background-color: #000000;
+	height: 50px;
+	padding: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* for smaller screen*/
+@media only screen and (max-width: 780px){
+	#project{
+		display: block;
+	}
+	#project-section hr{
+		width: 400px;
+	}
+	#navbar{
+    text-align: center;
+	}
+	#social{
+		display: block;
+		margin-top: 0px;
+	}
+	#social img{
+		width: 8%;
+		padding: 10px;
+	}
+	#social a span{
+		position: absolute;
+		padding: 15px;
+	}
+	#contact-us h1, #contact-us h2{
+	margin-top: 5px;
+	}
+}
